@@ -36,8 +36,6 @@ const char STREND = *end;
 STRLEN_PRINT mystrlen = (STRLEN_PRINT)GetProcAddress(stringdll, LPCSTR("my_strlen"));
 STRLEN_PRINT myprintf = (STRLEN_PRINT)GetProcAddress(stringdll, LPCSTR("my_strprintf"));
 STRTOK mystrtok = (STRTOK)GetProcAddress(stringdll, LPCSTR("my_strtok"));
-#endif
-
 unsigned int Check_Loading_Library(void)
 {
 	if (stringdll == NULL)
@@ -49,6 +47,9 @@ unsigned int Check_Loading_Library(void)
 		return FAIL;
 	}
 }
+#endif
+
+
 
 
 unsigned char Input(char** riad)

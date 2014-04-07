@@ -1,10 +1,12 @@
-﻿Build started 4/7/2014 9:46:48 PM.
+﻿Build started 4/7/2014 11:03:20 PM.
      1>Project "E:\task3_1\task3_1(V1)\task3_1(V1).vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\task3_1(V1).pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt functions.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\task3_1(V1).pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt functions.cpp "task3_1(V1).cpp"
+         task3_1(V1).cpp
+     1>e:\task3_1\task3_1(v1)\task3_1(v1).cpp(14): warning C4651: '/D_CRT_SECURE_NO_WARNINGS' specified for precompiled header but not for current compile
          functions.cpp
      1>e:\task3_1\task3_1(v1)\functions.cpp(6): warning C4651: '/D_CRT_SECURE_NO_WARNINGS' specified for precompiled header but not for current compile
-     1>e:\task3_1\task3_1(v1)\functions.cpp(51): warning C4715: 'Check_Loading_Library' : not all control paths return a value
+         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\task3_1\Debug\task3_1(V1).exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\task3_1\Debug\task3_1(V1).pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\task3_1\Debug\task3_1(V1).lib" /MACHINE:X86 Debug\functions.obj
          Debug\stdafx.obj
@@ -15,4 +17,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.16
+Time Elapsed 00:00:02.61

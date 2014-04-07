@@ -13,8 +13,8 @@ const unsigned int MAIN_SUCCESS = 0;
 
 /*for choosing what library to use*/
 //#define USE_STRING_H
-//#define USE_MY_LIB
-#define USE_MY_DLL
+#define USE_MY_LIB
+//#define USE_MY_DLL
 
 /**
 * @brief				This function displays general information about program to users
