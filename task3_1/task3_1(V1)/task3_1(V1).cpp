@@ -19,11 +19,11 @@
 
 void Interface(void)
 {
-	printf("------------------------------------------------------------------\n");
-	printf("Hi! Welcome to the genius word finder.\n ");
-	printf(" Enter sentences and program will find for you the longest word.\n\n ");
-	printf("Program made by Yuliia Lyubchik.\n");
-	printf("------------------------------------------------------------------\n\n");
+	puts("------------------------------------------------------------------");
+	puts("Hi! Welcome to the genius word finder. ");
+	puts(" Enter sentences and program will find for you the longest word.\n");
+	puts("Program made by Yuliia Lyubchik.");
+	puts("------------------------------------------------------------------\n");
 }
 
 
